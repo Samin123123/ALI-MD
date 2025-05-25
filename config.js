@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "HwBTxQ7Y#WgqtfIo2YAmUYmp4X8iAf76xloJywH6stWeSriWYhdM",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~7tZTzRwR#_nc8A627M9BYDovY4WyHkqDZTtVF_smIVRiiocbw9qc",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -31,9 +31,9 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "918348672970",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALI",
 // add bot owner name 
-WELCOME: process.env.WELCOME || "true",
+//WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+//GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
