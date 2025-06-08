@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~SgxSFJhA#qkjFkbOPSGup7FR8QS0B4y88lPcyI9G2WsP6ZeD4y2s",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -29,9 +29,9 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALI",
 // add bot owner name 
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -57,9 +57,9 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
-ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "false",
+ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "true",
 // make anti link true,false for groups 
 ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
 // make anti link true,false for groups 
