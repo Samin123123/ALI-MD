@@ -33,10 +33,10 @@
       
     },
         
-    "AUTO_VOICE": {
-      "description": "Make it true if want automatic voice reply .",
+    "REJECT_MSG": {
+      "description": "put your own call reject message.",
       "required": false,
-      "value": "false"
+      "value": "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*"
     }, 
 
     "AUTO_REPLY": {
@@ -184,3 +184,4 @@
   "stack": "heroku-24"
 }
   
+
